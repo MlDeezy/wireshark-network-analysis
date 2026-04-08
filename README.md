@@ -1,2 +1,25 @@
-# wireshark-network-analysis
-I captured and analyzed network traffic using Wireshark.
+# Network Traffic Analysis using Wireshark
+
+## Objective
+To capture and analyze network traffic using Wireshark.
+
+## Tools Used
+- Wireshark
+
+## What I Did
+- Captured live network traffic
+- Visited websites to generate traffic
+- Applied filters like DNS, TCP, and TLS
+
+## Key Findings
+- DNS requests show how websites are resolved
+- TLS traffic shows encrypted communication
+- TCP establishes connections between devices
+
+## Screenshots
+(Add your images here)
+
+## What I Learned
+- How data flows across a network
+- How to identify different types of traffic
+- Basic network security concepts
