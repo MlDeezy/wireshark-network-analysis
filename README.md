@@ -1,38 +1,63 @@
 # Network Traffic Analysis using Wireshark
 
 ## Objective
-To capture and analyze network traffic using Wireshark.
+
+The goal of this project is to capture and analyze real network traffic to understand how devices communicate over a network.
 
 ## Tools Used
-- Wireshark
 
-## What I Did
-- Captured live network traffic
-- Visited websites to generate traffic
-- Applied filters like DNS, TCP, and TLS
+* Wireshark (network protocol analyzer)
 
-## Key Findings
-- DNS requests show how websites are resolved
-- TLS traffic shows encrypted communication
-- TCP establishes connections between devices
+## Methodology
+
+1. Installed Wireshark and captured live network traffic
+2. Generated traffic by browsing websites and streaming content
+3. Applied filters to isolate specific protocols:
+
+   * DNS
+   * TCP
+   * TLS
+
+## Analysis & Findings
+
+### DNS Analysis
+
+DNS (Domain Name System) translates domain names into IP addresses.
+
+* Observed DNS queries to:
+
+  * google.com
+  * youtube.com
+  * activision.com
+  * instagram.com
+  * discord.com
+  * battle.net
+* This shows how my system locates servers on the internet.
+
+### TCP Analysis
+
+TCP (Transmission Control Protocol) is responsible for establishing reliable connections.
+
+* Observed TCP handshakes between my device and external servers
+* Ensures data is delivered correctly
+
+### TLS Analysis
+
+TLS (Transport Layer Security) encrypts data during transmission.
+
+* Observed encrypted traffic when accessing secure websites
+* Prevents attackers from reading sensitive data
 
 ## Screenshots
-(Add your images here)
 
-## What I Learned
-- How data flows across a network
-- How to identify different types of traffic
-- Basic network security concepts
+* See media
 
+## Conclusion
 
-What DNS does (simple: converts names → IP)
+This project demonstrates how network traffic can be captured and analyzed using Wireshark. It highlights the importance of DNS, TCP, and TLS in everyday internet communication and security.
 
-Example:
-“My system queried google.com to find its IP address”
+## Skills Gained
 
-
-Why TLS matters (keeps data private)
-
-Example:
-“Traffic to YouTube was encrypted using TLS, preventing attackers from seeing the content”
-
+* Network traffic analysis
+* Understanding of core protocols (DNS, TCP, TLS)
+* Basic cybersecurity analysis skills
